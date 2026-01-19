@@ -14,6 +14,10 @@
 - `langchain-experimental` : 연구 및 실험용으로 사용되는 실험적인 랭체인 코드를 보관한다.
 - `langChain-community` : 여기에는 모든 서드파티 통합이 포함된다.
 
+```bash
+pip install langchain langserve
+```
+
 추가적으로, 랭체인 애플리케이션을 모니터링하고 유지 관리하는 데 활용할 수 있는 추가 패키지도 존재한다.
 
 - `langserve` : 랭서브는 랭체인 러너블과 체인을 REST API로 배포할 수 있는 도구로, 랭체인 애플리케이션을 프로덕션 환경에 쉽게 통합할 수 있게 해준다.
